@@ -4,26 +4,21 @@
    margin: 20px auto 20px auto;
    border-radius: 10px;
 } 
-
 body {
    color: #626262;
    font-family: 'Sanchez', 'Times New Roman', serif;
 }
-
 a {
    text-decoration: none;
 }
-
 input, textarea {
    display: block;
    margin: 0;
    padding: 0;
 }
-
 .cr-red {
    color: #9a2018;
 }
-
 #main-nav label img{
    width: 20px;
    height: 20px;
@@ -63,7 +58,6 @@ input, textarea {
 #main-nav ul li:last-child{
    border-bottom: 4px solid #efefef;
 }
-
 #logo {
    margin-bottom: 20px;
    max-width: 382px;
@@ -72,7 +66,6 @@ input, textarea {
    background: url(../images/hero-main.jpg) no-repeat;
    height: 200px;
 }
-
 .book-now {
    background-color: #9a2018;
    color: #fff;
@@ -102,41 +95,34 @@ input, textarea {
    padding: 10px 15px;
    font-size: 14px;
 }
-
 .hero-img-h2 span,  .hero-img-h3 span {
    color: #9a2018;
    font-size: 12px;
 }
-
 .line-separator {
    margin-top: 20px;
    border-top: solid 3px #CF6666;
    padding-top: 20px;
 }
-
 #hero-summary p {
    font-size: 14px;
    line-height: 22px;
    margin-bottom: 20px;
 }
-
 .fas {
    font-size: 42px;
    color: #9a2018;
    margin: 0 auto;
    float: left;
 }
-
 .fa-mobile-alt {
    margin-right: 10px;
    margin-left: 3px;
    margin-bottom: 20px;
 }
-
 .fa-map-marker-alt {
    margin-right: 10px;
 }
-
 #contact {
    font-size: 11px;
    background-color: #efefef;
@@ -362,4 +348,47 @@ input, textarea {
    margin-bottom: 20px;
    line-height: 18px;
    font-size: 11px;
+}
+/* ABOVE IS HOME PAGE FROM IN CLASS EXAMPLES. */
+
+/* Rooms Page CSS */
+.room-h2, .room-h3 {
+   background: #fff;
+   padding: 10px 15px;
+   font-size: 16px;
+}
+.room-h2 span,  .room-h3 span {
+   color: #9a2018;
+   font-size: 18px;
+}
+#rooms-picture {
+   background: url(../images/RoomsHeader.jpg) no-repeat;
+   height: 195px;
+ }
+ .left-image {
+   float: left;
+   margin-right: 25px;
+   margin-top: 10px;
+}
+.right-image {
+   float: right;
+   margin-right: 25px;
+   margin-top: 10px;
+}
+.rooms-title{
+   margin-top: 10px;
+}
+#room-summary p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+   margin-right: 10px;
+}
+#details-button{
+   border-radius: 12px;
+   width: 100px;
+   height: 35px;
+   background-color: #9a2018;
+   color: white;
+   font: inherit;
 }

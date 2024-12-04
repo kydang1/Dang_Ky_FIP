@@ -396,9 +396,53 @@ input, textarea {
    color: white;
    font: inherit;
 }
+#packages-picture {
+   background: url(../images/PackageHeader.jpg) no-repeat;
+   height: 195px;
+ }
 #back-colour{
    background-color: #a5a5a5;
    color: black;
    margin: 0 auto;
    padding: 5px 10px;
+}
+#booking-picture {
+   background: url(../images/BookingHeader.jpg) no-repeat;
+   height: 195px;
+ }
+ .booking-head{
+   text-align: center;
+ }
+ .booking-button{
+   display: flex;
+   justify-content: center;
+ }
+ #check-button{
+   border-radius: 18px;
+   width: 100px;
+   height: 35px;
+   background-color: #9a2018;
+   color: white;
+   font: inherit;
+}
+.subscribe-button{
+   text-align: center;
+}
+input[type="checkbox"]:checked+div span::after {
+   content: '\2713';
+   width: 50px;
+   border-radius: 50%;
+   background-color: rgb(184, 255, 184);
+   border: 2px solid #20b320;
+   font-size: 8px;
+   animation: fadeIn 0.6s;
+   margin-left: 3px;
+}
+@keyframes fadeIn {
+   from {
+       opacity: 0;
+   }
+   to {
+       opacity: 1;
+   }
 }

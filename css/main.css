@@ -384,8 +384,11 @@ input, textarea {
    margin-bottom: 20px;
    margin-right: 10px;
 }
-#details-button{
-   border-radius: 12px;
+#room-summary{
+   margin-bottom: 20px;
+}
+#button{
+   border-radius: 18px;
    width: 100px;
    height: 35px;
    background-color: #9a2018;

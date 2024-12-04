@@ -446,3 +446,68 @@ input[type="checkbox"]:checked+div span::after {
        opacity: 1;
    }
 }
+
+/* desktop page below */
+
+#desktop-logo {
+   margin-bottom: 20px;
+   max-width: 500px;
+}
+#desktop-logo img {
+   display: flex;
+   justify-content: center;
+}
+.hidden{
+   display: none;
+}
+#desktop-header{
+   background-color: white;
+   display: flex;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+}
+#desktop-logo{
+   width: 500px;
+   padding: 10px 0 10px 10px;
+}
+#desktop-header nav{
+   margin-left: auto;
+   margin-right: 50px;
+}
+#desktop-header nav ul{
+   list-style-type: none;
+   text-decoration: none;
+}
+#desktop-header nav ul li{
+      display: inline;
+      margin: 0 10px;
+}
+#desktop-header nav ul li a{
+   text-decoration: none;
+}
+#packages-picture-desktop {
+   background: url(../images/PackageHeader.jpg);
+   height: 275px;
+   margin: 0;
+ }
+ .desktop-h2{
+   background: #fff;
+   color: #9a2018;
+   padding: 10px 15px;
+   font-size: 24px;
+   text-align: center;
+ }
+ .desktop-h2 span{
+   color: #333;
+ }
+ #desktop-back-colour{
+   background-color: #a5a5a5;
+   color: black;
+   margin: 0 auto;
+   padding: 50px 20px;
+   text-align: right;
+}
+#footer-contact-info-desktop{
+   text-align: center;
+}

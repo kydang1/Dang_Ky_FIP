@@ -375,17 +375,18 @@ input, textarea {
    margin-right: 25px;
    margin-top: 10px;
 }
-.rooms-title{
+.title-head{
    margin-top: 10px;
 }
-#room-summary p {
-   font-size: 14px;
+#page-summary p {
+   font-size: 16px;
    line-height: 22px;
    margin-bottom: 20px;
    margin-right: 10px;
 }
-#room-summary{
+#page-summary{
    margin-bottom: 20px;
+   padding-bottom: 5px;
 }
 #button{
    border-radius: 18px;
@@ -394,4 +395,10 @@ input, textarea {
    background-color: #9a2018;
    color: white;
    font: inherit;
+}
+#back-colour{
+   background-color: #a5a5a5;
+   color: black;
+   margin: 0 auto;
+   padding: 5px 10px;
 }
